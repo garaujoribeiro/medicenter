@@ -1,0 +1,482 @@
+*{ margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"PT Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section{
+    display: flex;
+}
+
+.logoMenu{
+    display: flex;
+    flex: 3;}
+.buttMenu{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+.menuButton{
+    padding: 12px 15px 12px 15px;
+    border-radius: 5%;
+
+}
+.menuButton:hover{
+    background-color: #0079c7;
+    color:white;
+    transition: 300ms;
+    box-shadow: 1px 1px 5px gray;
+
+    
+}
+.barraMenu{
+    
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 120px;
+    display: flex;
+    font-variant: small-caps;
+    text-size-adjust: 1;
+    color: rgba(0, 0, 0, 0.638);
+    flex-wrap: wrap;
+
+
+
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    
+}
+
+.landMark{
+    display: flex;
+    height: 670px;
+    width: 1351px;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    flex-direction: column;}
+
+
+.centroLandMark{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    width: 1000px;
+    height: 200px;
+    color: white;
+    position: relative;
+    bottom: 100px;
+
+    
+}
+
+#paragrafoBanner{
+    width: 400px;
+    font-size:20px;
+    word-spacing: 5px;
+    text-shadow: 1px 1px 1px gray;
+}
+#tituloBanner{
+    font-size:75px;
+    word-spacing: 5px;
+    width: 400px;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.listrasLandmark1{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.listrasLandmark{
+    width: 80%;
+    height: 3px;
+    border-style: none;
+    position: relative;
+    bottom: 30px;
+}
+#listra1{
+    background-color: whitesmoke;}
+
+#listra2{
+    background-color: rgba(255, 255, 255, 0.3);}
+
+#listra3{background-color: rgba(255, 255, 255, 0.300);}
+
+.infoLandMark{
+    display:flex;
+    height: 200px;
+    color: white;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+#emergencyCase{
+    background-color: #39aae1;
+    width: 333.3px;
+    height: 200px;
+
+}
+#doctorsTimetable{
+    width: 333.3px;
+    background-color:#0079c7;
+    height: 200px;
+}
+#openingHours{
+    background-color: #2b4c99;
+    width: 333.3px;
+    height: 200px;
+}
+
+#openingHours{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 100px;
+
+    text-align: justify;
+    padding: 10px 25px 10px 25px;
+}
+
+#emergencyCase{
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#doctorsTimetable{
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botaoEntrada{
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-width: 1px;
+    box-shadow: 1px 1px 1px gray;
+    text-align: center;
+    width: 30%;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleInfo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 100px;
+
+    text-align: justify;
+    padding: 13px 15px 13px 15px;
+}
+
+.geralzao{
+    padding-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.lateralGeral{
+    padding-top:20px;
+    display: flex;
+}
+
+.parteGeral{
+    width: 1000px;
+    height: 1000px;
+}
+
+#noticiaTitulo{
+    display: flex;
+    height: 20px;
+    flex: 1;
+    width: 666.6px;
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    font-weight: 100px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#departments{
+    display: flex;
+    width: 333.3px;
+    height: 20px;
+    flex: 1;
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    font-weight: 100px;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+#makeAnAppointment{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex: 20;
+    background-color: white;
+    flex-direction: column;
+}
+   
+
+
+.lateralGeral{
+    display: flex;
+    flex-direction: column;
+}
+
+.listras2{
+    display: flex;
+    width: 50px;
+    height: 2px;
+    border-style: none;
+    position: relative;
+    text-align: left;
+    background-color: #0079c7;
+    bottom: 5px;
+
+}
+
+.articles{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex: 300;
+    background-color: white;
+    align-items: flex-start;
+
+}
+
+
+.articlesCont{
+    display: flex;
+    flex: 20;
+    flex-direction: column;
+
+}
+
+.imagensArticle{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    padding-top:20px;
+    padding-right: 20px;
+}
+
+.tituloPost{
+    font-weight: 400;
+
+}
+
+.textoPost{
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+}
+
+
+.postedIn{
+    font-size: 10px;
+    color: gray;
+
+}
+
+.labelArticle{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.articleNumber{
+    position: relative;
+    left: 5px;
+    background-color: #39aae1;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 11px;
+}
+
+.articleDate{
+    background-color:#2b4c99;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 11px;
+}
+
+.articleCont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.ladoEsquerdoMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 0px 10px 0px;
+}
+
+.ladoDireitoMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 0px 10px 0px;
+}
+
+.tituloPost{
+    display: flex;
+    padding-top: 30px;
+}
+
+.textoPost{
+    display: flex;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.postedIn{
+    display: flex;
+    padding-top: 30px;
+}
+
+.linhaMain{
+    background-color: rgba(128, 128, 128, 0.583);
+    height: 1px;
+    width: 300px;
+    border-style: solid;
+    border: rgba(128, 128, 128, 0.494);
+}
+
+.linhaMain1{
+    display: flex;
+    padding-top: 10px;
+    padding-right:50px;
+}
+
+.listaDeDepart{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.departamentos{
+padding: 10px 0px 10px 10px;
+
+width: 300px;
+color:rgb(48, 48, 48);
+display: flex;
+flex-direction: column;
+
+}
+
+.departamentos:hover{
+    padding: 10px 0px 10px 10px;
+    box-shadow: 1px 1px 3px gray;
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #0079c7;
+    
+    }
+
+.linhaMain2{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px
+
+}
+
+aside{
+    width: 300px;
+}
+
+.listraMa{
+    padding-top: 5px;
+}
+
+.departamentos2{
+padding: 20px 0px 5px 0px;
+width: 300px;
+color:rgb(48, 48, 48);
+display: flex;
+flex-direction: column;
+
+}
+
+footer{
+    
+    height: 300px;
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+}
+
+.infoLandMark1{
+    display:flex;
+    height: 200px;
+    color: white;
+    width: 100%px;
+    justify-content: center;
+}
+.OpeningH1{
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#doctorsTimetable1{
+    width: 333.3px;
+    background-color:#2b4c99;
+    height: 200px;
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.copyright{
+display: flex;
+flex-direction: column;
+color: white;
+font-size: 11px;
+align-items: center;
+padding-top: 40px;
+
+}
